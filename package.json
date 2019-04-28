@@ -1,0 +1,21 @@
+{
+  "name": "@poziworld/webhooks",
+  "private": true,
+  "author": "PoziWorld, Inc.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
