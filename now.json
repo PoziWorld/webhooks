@@ -1,6 +1,10 @@
 {
   "version": 2,
   "name": "webhooks",
+  "env": {
+    "BOT_TOKEN": "@poziworld-webhooks-bot-token",
+    "CHAT_ID": "@poziworld-webhooks-chat-id"
+  },
   "builds": [
     {
       "src": "index.js",

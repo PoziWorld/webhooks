@@ -8,10 +8,11 @@
     "start": "node .",
     "lint": "eslint . --ext .js",
     "lint:fix": "npm run lint -- --fix",
-    "test": "mocha"
+    "test": "mocha --timeout 5000"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "superagent": "^5.0.4"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
