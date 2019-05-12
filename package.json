@@ -1,5 +1,6 @@
 {
   "name": "@poziworld/webhooks",
+  "version": "0.1.0",
   "private": true,
   "author": "PoziWorld, Inc.",
   "license": "MIT",
